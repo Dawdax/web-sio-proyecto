@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -45,7 +44,8 @@
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            object-fit: cover;
+            object-fit: contain; /* Cambiado a 'contain' para que se ajuste al contenedor */
+            background-color: #e0e0e0; /* Fondo para las imágenes que no ocupan todo el espacio */
         }
 
         .player-name {
@@ -63,18 +63,27 @@
 
     <div class="team-container">
         <div class="player-card">
-            <img src="https://via.placeholder.com/150" alt="Foto de jugador">
-            <p class="player-name">Messi</p>
+            <img src="./img/David.jpg" alt="Foto de jugador">
+            <p class="player-name">Aguilar Panameño</p>
+            <p class="player-name">CEO</p>
+        </div>
+
+        <div class="player-card">
+            <img src="./img/Daniel.jpg" alt="Foto de jugador">
+            <p class="player-name">Molina Menjivar</p>
+            <p class="player-name">Jugador profesional</p>
+        </div>
+
+        <div class="player-card">
+            <img src="./img/Jaime.jpg" alt="Foto de jugador">
+            <p class="player-name">Merino Guerra</p>
+            <p class="player-name">Director técnico</p>
         </div>
 
         <div class="player-card">
             <img src="https://via.placeholder.com/150" alt="Foto de jugador">
-            <p class="player-name">Xavi</p>
-        </div>
-
-        <div class="player-card">
-            <img src="https://via.placeholder.com/150" alt="Foto de jugador">
-            <p class="player-name">Iniesta</p>
+            <p class="player-name"> Linares López</p>
+            <p class="player-name"> Jugardor profesional</p>
         </div>
 
         <!-- Agrega más jugadores aquí -->
