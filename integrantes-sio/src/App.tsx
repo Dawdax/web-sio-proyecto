@@ -17,22 +17,22 @@ const integrantes = [
   {
     title: "Aguilar Panameño",
     profession: "CEO",
-    img: "../public/David.jpg",
+    img: "/David.jpg",
   },
   {
     title: "Molina Menjivar",
     profession: "Jugador profesional",
-    img: "../public/Daniel.jpg",
+    img: "./Daniel.jpg",
   },
   {
     title: "Merino Guerra",
     profession: "Director técnico",
-    img: "../public/Jaime.jpg",
+    img: "/Jaime.jpg",
   },
   {
     title: "Linares López",
     profession: "Jugardor profesional",
-    img: "../public/Oscar.jpg",
+    img: "/Oscar.jpg",
   },
 ];
 
