@@ -31,7 +31,7 @@ const integrantes = [
   },
   {
     title: "Linares López",
-    profession: "Jugardor profesional",
+    profession: "Director deportivo",
     img: "/Oscar.jpg",
   },
 ];
@@ -42,7 +42,7 @@ function App() {
   );
 
   return (
-    <div className="bg-slate-200 w-full min-h-screen flex flex-col ">
+    <div className="bg-slate-200 w-full min-h-screen flex flex-col">
       <header className="bg-blue-950 p-10 flex justify-center">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 ">
           <p className="font-bold text-3xl text-red-700 uppercase">
